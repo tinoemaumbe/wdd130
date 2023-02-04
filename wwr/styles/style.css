@@ -79,7 +79,9 @@ nav a:hover {
     color: rgb(2, 129, 66);
 }
         
-
+.rapids-card{
+    text-align: center;
+}
 .join{
     text-align: center;
     text-decoration: none;
@@ -137,6 +139,14 @@ msg p{
     font-size: 2em;
 }
 
+.book, .join{
+    font-size: 18px;
+}
+
+.msg p{
+    font-size: 8em;
+}
+
 .msg{
     background-color: bisque;
     line-height: 1.5em;
@@ -155,11 +165,51 @@ h2{
     margin: 0;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
+.book, .join{
+    padding: 15px 30px;
+}
+
+.icon{
+    padding-top: 10px;
+}
+
+.msg{
+    padding: 35px;
+}
+
+.msg p{
+    padding-bottom: 15px;
+}
+
+footer{
+    padding: 25px 50px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
 nav a{
     text-decoration: none;
     color: bisque;
     text-align: center;
     padding: 35px;
+}
+
+.home-tittle{
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+footer{
+    margin-top: 200px;
 }
 
 .book, .join{
