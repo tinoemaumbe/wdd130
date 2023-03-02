@@ -474,5 +474,51 @@ footer {
     }
 }
 
+.riverss{
+    width: 300px;
+}
 
-             
+#river-wide{
+    width: 100%;
+}
+
+.Rivers-tittle{
+    font-family: 'Raleway', 'Roboto', monospace;
+    font-size: 2em;
+}
+
+.rivers-card, .river2-card, .river3-card{
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 200px 0;
+    size: 1fr 1fr 1fr;
+}
+
+        
+       
+.rivers-card {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+ 
+}
+
+.river2-card{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+} 
+
+.river3-card{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+
