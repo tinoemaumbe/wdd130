@@ -163,7 +163,7 @@ msg p{
 }
 
 .msg{
-    background-color: rgb(25, 132, 146);
+    background-color: white;
     line-height: 1.5em;
 }
 
@@ -418,6 +418,43 @@ h2{
 }
 
 
+.image7-card {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+ 
+}
+
+.image8-card{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+} 
+
+.image7-card, .image8-card{
+    background-color: none;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 200px 0;
+}
+
+
+.msg p{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 35px;
+}
+
+.msg p{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+}
 
 * {box-sizing: border-box}
 
